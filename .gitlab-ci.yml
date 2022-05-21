@@ -1,12 +1,12 @@
-image: ubuntu:latest
 stages:
-  - deploy
+  - build
 
-pages:
-  stage: deploy
+build:
+  image: node:latest    # Run the job in a `node` docker image
+  stage: build
   script:
-    - mkdir public
-    - mv index.html ./public
+    - yarn install      # Run `yarn install` and `yarn build`
+    - yarn build
   artifacts:
     paths:
-      - public
+      - build/      
