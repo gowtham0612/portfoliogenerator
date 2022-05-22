@@ -53,7 +53,7 @@ const Form = ({ FormData, onChange }) => {
   };
   return (
     <div className="Form">
-      <h3>Basic Info</h3>
+      <h3 style={{color:'#143b64'}}>Basic Info</h3>
       {Object.keys(FormData).map(
         fd =>
           Object.keys(Desc).includes(fd) && (
