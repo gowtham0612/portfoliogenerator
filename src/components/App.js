@@ -73,7 +73,7 @@ class App extends Component {
             onClick={this.toggleHeader}
           >
             <i
-              className={"fa-solid " + (this.state.Dark ? "fa-sun" : "fa-moon")}
+              className={"fa-solid " + (this.state.Dark ? "fa-sun" : "fa-cloud-moon")}
             ></i>
           </button>
         </Header>
