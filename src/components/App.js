@@ -72,7 +72,7 @@ class App extends Component {
             className="btn btn-sm btn-outline-primary rounded-circle"
             onClick={this.toggleHeader}
           >
-            <i
+            <i style={{color:'#ffc107'}}
               className={"fa-solid " + (this.state.Dark ? "fa-sun" : "fa-cloud-moon")}
             ></i>
           </button>
