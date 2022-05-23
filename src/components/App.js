@@ -72,8 +72,8 @@ class App extends Component {
             className="btn btn-sm btn-outline-primary rounded-circle"
             onClick={this.toggleHeader}
           >
-            <i
-              className={"fa fa-" + (this.state.Dark ? "sun" : "moon") + "-o"}
+            <i style={{color:'#ffc107'}}
+              className={"fa-solid " + (this.state.Dark ? "fa-sun" : "fa-cloud-moon")}
             ></i>
           </button>
         </Header>

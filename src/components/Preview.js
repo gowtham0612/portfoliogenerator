@@ -89,7 +89,7 @@ const Preview = ({
       <!-- About-->
       <section class="resume-section" id="about">
         <div class="resume-section-content">
-          <h1 class="mb-0">
+          <h1 class="mb-0" style="color: #143b64;">
             ${FirstName}
             <span class="text-primary">${LastName}</span>
           </h1>
@@ -111,7 +111,7 @@ ${Object.keys(Socials).map(
       <!-- Experience-->
       <section class="resume-section" id="experience">
         <div class="resume-section-content">
-          <h2 class="mb-5">Experience</h2>
+          <h2 class="mb-5" style="color: #143b64;">Experience</h2>
           ${experiences.map(
             experience => `
           <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
@@ -141,7 +141,7 @@ ${Object.keys(Socials).map(
       <!-- Education-->
       <section class="resume-section" id="education">
         <div class="resume-section-content">
-          <h2 class="mb-5">Education</h2>
+          <h2 class="mb-5" style="color: #143b64;">Education</h2>
           ${educations.map(
             education => `
           <div class="d-flex flex-column flex-md-row justify-content-between">
@@ -169,7 +169,7 @@ ${Object.keys(Socials).map(
       <!-- Skills-->
       <section class="resume-section" id="skills">
         <div class="resume-section-content">
-          <h2 class="mb-5">Skills</h2>
+          <h2 class="mb-5" style="color: #143b64;">Skills</h2>
           <div class="subheading mb-3">Programming Languages & Tools</div>
           <ul class="fa-ul mb-0">
             ${skills.map(
@@ -188,7 +188,7 @@ ${Object.keys(Socials).map(
       <!-- Interests-->
       <section class="resume-section" id="interests">
         <div class="resume-section-content">
-          <h2 class="mb-5">Interests</h2>
+          <h2 class="mb-5" style="color: #143b64;">Interests</h2>
           ${interests.map(
             interest => `
           <p>${interest.interest.interest}</p>
@@ -201,7 +201,7 @@ ${Object.keys(Socials).map(
       <!-- Awards-->
       <section class="resume-section" id="awards">
         <div class="resume-section-content">
-          <h2 class="mb-5">Awards & Certifications</h2>
+          <h2 class="mb-5" style="color: #143b64;">Awards & Certifications</h2>
           <ul class="fa-ul mb-0">
             ${awards.map(
               award => `
