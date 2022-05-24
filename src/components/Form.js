@@ -9,42 +9,42 @@ const Form = ({ FormData, onChange }) => {
   const Desc = {
     FullName: [
       "text",
-      "Full Name",
+      <h3>Full Name</h3>,
       "This is your full name. This has been generated using your first and last names."
     ],
     FirstName: [
       "text",
-      "First Name",
+      <h4>First Name</h4>,
       "Please enter your first name or given name."
     ],
-    LastName: ["text", "Last Name", "Please enter your last name or surname"],
+    LastName: ["text", <h4>Last Name</h4>, "Please enter your last name or surname"],
     Thubmnail: [
       "text",
-      "Your Photo",
+      <h4>Your Photo</h4>,
       "Please upload your photo in a CDN(Ex. Imgur) and paste the direct image URL here."
     ],
     URL: [
       "text",
-      "Website link",
+      <h4>Website link</h4>,
       "Please enter the URL of your website, where this page is going to be hosted"
     ],
-    Description: ["text", "About you", "Write something nice about you."],
+    Description: ["text", <h4>About you</h4>, "Write something nice about you."],
     Keywords: [
       "text",
-      "Keywords",
+      <h4>Keywords</h4>,
       "If someone wants to search for you, what keywords should they use?"
     ],
     Address: [
       "text",
-      "Where are you?",
+      <h4>Where are you?</h4>,
       "Type in your full address to get kidnapped!"
     ],
     Phone: [
       "text",
-      "Phone Number",
+      <h4>Phone Number</h4>,
       "Please enter your phone number, so we can call you in the midnight!"
     ],
-    Email: ["text", "Email Address", "Tell us your primary email address"],
+    Email: ["text", <h4>Email Address</h4>, "Tell us your primary email address"],
     Colour: [
       "color",
       "Theme Colour",
