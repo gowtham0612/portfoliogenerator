@@ -23,12 +23,6 @@ const NewExperienceForm = ({ experiences=[], onCreatePressed }) =>{
                 placeholder="Position"
                 value={position}
                 onChange={e => setPosition(e.target.value)
-                width:100%;
-                padding:12px 20px;
-                margin:8px 0;
-                border:1px solid #ccc;
-                border-radius:4px;
-                box-sizing:border-box;
                 }
             />
             <input 
@@ -37,12 +31,7 @@ const NewExperienceForm = ({ experiences=[], onCreatePressed }) =>{
                 placeholder="Company"
                 value={company}
                 onChange={e => setCompany(e.target.value)
-                width:100%;
-                padding:12px 20px;
-                margin:8px 0;
-                border:1px solid #ccc;
-                border-radius:4px;
-                box-sizing:border-box;}
+                }
             />
             <textarea 
                 className="form-control form-control-sm mb-2" 
@@ -50,12 +39,7 @@ const NewExperienceForm = ({ experiences=[], onCreatePressed }) =>{
                 rows="3" 
                 value={desc}
                 onChange={e => setDesc(e.target.value)
-                width:100%;
-                padding:12px 20px;
-                margin:8px 0;
-                border:1px solid #ccc;
-                border-radius:4px;
-                box-sizing:border-box;}
+                }
             />
             <div className="row mb-2">
                 <div className="col">
