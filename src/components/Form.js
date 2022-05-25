@@ -48,7 +48,7 @@ const Form = ({ FormData, onChange }) => {
     Colour: [
       "color",
       "Theme Colour",
-      "Please choose the colour for your portfolio"
+      "Please choose the colour for your portfolio "
     ]
   };
   return (
