@@ -96,8 +96,10 @@ class App extends Component {
                 }}
                 disabled={this.state.PreviewMode}
                 title="Go to the Code View to download."
-              >
-                Download
+              >Download 
+                <i style={{color:'white'}}
+              className={"fa-solid fa-angles-down"}
+            ></i>
               </button>
               <a
                 className="d-none"
