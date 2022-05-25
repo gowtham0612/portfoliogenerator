@@ -1,7 +1,7 @@
 import FormGroup from "./Bootstrap/FormGroup";
 import AwardList from "./Form/Awards/AwardList";
 import EducationList from "./Form/Education/EducationList";
-import ExperienceList from "./Form/Experience/ExperienceList";
+import ExperienceList from "./Form//ExperienceList";
 import InterestList from "./Form/Interests/InterestList";
 import SkillsList from "./Form/Skills/SkillsList";
 

@@ -76,7 +76,7 @@ const Preview = ({
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav">
           <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
+          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#">Experience</a></li>
           <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
           <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
           <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
@@ -109,7 +109,7 @@ ${Object.keys(Socials).map(
       </section>
       <hr class="m-0" />
       <!-- Experience-->
-      <section class="resume-section" id="experience">
+      <section class="resume-section" id="">
         <div class="resume-section-content">
           <h2 class="mb-5">Experience</h2>
           ${experiences.map(
