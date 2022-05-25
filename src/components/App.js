@@ -87,7 +87,9 @@ class App extends Component {
                 }}
                 onChange={this.handleChange}
               />
+              <div className="text-center">
               <button
+              style={{background:'#e83e8c'}}
                 className="btn btn-success"
                 onClick={() => {
                   this.download();
@@ -105,6 +107,7 @@ class App extends Component {
               >
                 Download
               </a>
+            </div>
             </div>
             <div className="p-3" /*className='col-12 col-md-6'*/>
               <ul className="nav nav-tabs mb-2">
