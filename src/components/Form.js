@@ -9,42 +9,42 @@ const Form = ({ FormData, onChange }) => {
   const Desc = {
     FullName: [
       "text",
-      <h3>Full Name</h3>,
+      <h4>Full Name</h4>,
       "This is your full name. This has been generated using your first and last names."
     ],
     FirstName: [
       "text",
-      <h4>First Name</h4>,
+      <h5>First Name</h5>,
       "Please enter your first name or given name."
     ],
-    LastName: ["text", <h4>Last Name</h4>, "Please enter your last name or surname"],
+    LastName: ["text", <h5>Last Name</h5>, "Please enter your last name or surname"],
     Thubmnail: [
       "text",
-      <h4>Your Photo</h4>,
+      <h5>Your Photo</h5>,
       "Please upload your photo in a CDN(Ex. Imgur) and paste the direct image URL here."
     ],
     URL: [
       "text",
-      <h4>Website link</h4>,
+      <h5>Website link</h5>,
       "Please enter the URL of your website, where this page is going to be hosted"
     ],
-    Description: ["text", <h4>About you</h4>, "Write something nice about you."],
+    Description: ["text", <h5>About you</h5>, "Write something nice about you."],
     Keywords: [
       "text",
-      <h4>Keywords</h4>,
+      <h5>Keywords</h5>,
       "If someone wants to search for you, what keywords should they use?"
     ],
     Address: [
       "text",
-      <h4>Where are you?</h4>,
+      <h5>Where are you?</h5>,
       "Type in your full address to get kidnapped!"
     ],
     Phone: [
       "text",
-      <h4>Phone Number</h4>,
+      <h5>Phone Number</h5>,
       "Please enter your phone number, so we can call you in the midnight!"
     ],
-    Email: ["text", <h4>Email Address</h4>, "Tell us your primary email address"],
+    Email: ["text", <h5>Email Address</h5>, "Tell us your primary email address"],
     Colour: [
       "color",
       "Theme Colour",
@@ -53,7 +53,7 @@ const Form = ({ FormData, onChange }) => {
   };
   return (
     <div className="Form">
-      <h1 style={{color:'#143b64'}}>Basic Info</h1>
+      <h1 style={{color:'#143b64'}} className="mb-4">Basic Info</h1>
       {Object.keys(FormData).map(
         fd =>
           Object.keys(Desc).includes(fd) && (

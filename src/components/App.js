@@ -98,7 +98,7 @@ class App extends Component {
                 title="Go to the Code View to download."
               >Download 
                 <i style={{color:'white'}}
-              className={"fa-solid fa-angles-down"}
+              className={"pl-2 fa-solid fa-angles-down"}
             ></i>
               </button>
               <a
