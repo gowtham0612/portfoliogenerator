@@ -4,6 +4,7 @@ import EducationList from "./Form/Education/EducationList";
 import ExperienceList from "./Form/Experience/ExperienceList";
 import InterestList from "./Form/Interests/InterestList";
 import SkillsList from "./Form/Skills/SkillsList";
+import '../styles/App.scss'
 
 const Form = ({ FormData, onChange }) => {
   const Desc = {
@@ -67,6 +68,7 @@ const Form = ({ FormData, onChange }) => {
               Placeholder={`Enter something for ${Desc[fd][1]}`}
               onChange={fd === "FullName" ? () => {} : onChange}
               readOnly={fd === "FullName" ? true : undefined}
+              className='shadow'
             />
           )
       )}
