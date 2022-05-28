@@ -18,7 +18,7 @@ const NewSkillForm = ({ skills=[], onCreatePressed }) =>{
                 onChange={e => setSkill(e.target.value)}
             />          
         <div className="text-right">
-            <button 
+            <button style={{background:'#126ccc'}}
                 className="btn btn-success btn-sm rounded-circle"
                 disabled={skill === ''}
                 onClick={()=>{

@@ -83,7 +83,7 @@ const NewExperienceForm = ({ experiences=[], onCreatePressed }) =>{
             </div>
             
         <div className="text-right">
-            <button 
+            <button style={{background:'#126ccc'}}
                 className="btn btn-success btn-sm rounded-circle"
                 disabled={position === '' ||
                           company === '' ||
