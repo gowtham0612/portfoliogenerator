@@ -9,7 +9,8 @@ const NewAwardForm = ({ awards=[], onCreatePressed }) =>{
     const [award, setAward] = useState('');
 
     return(
-    <div className="border rounded bg-light p-3 m-2">
+        <div className='shadow'>
+    <div className="p-3 m-2">
             <input 
                 className="form-control form-control-sm mb-2"
                 type="text"
@@ -29,6 +30,7 @@ const NewAwardForm = ({ awards=[], onCreatePressed }) =>{
                 <FontAwesomeIcon icon={faPlus} />
             </button>
         </div>
+    </div>
     </div>
     )
 }

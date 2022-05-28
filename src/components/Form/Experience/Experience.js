@@ -4,7 +4,7 @@ import { faMinus } from "@fortawesome/free-solid-svg-icons";
 
 const Experience = ({ experience, onRemovePressed}) =>{
     return(    
-        <div className="card bg-light pb-1 pr-1 mb-1 small">
+        <div className="card bg-light  pb-1 pr-1 mb-1 small">
             <div className="card-body">
                 <div className="row"> 
                     <div className="col-xl-2 col-3">Role: </div>
