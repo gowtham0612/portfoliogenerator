@@ -89,7 +89,7 @@ class App extends Component {
               />
               <div className="text-center">
               <button
-              style={{background:'#e83e8c'}}
+              style={{background:'#126ccc'}}
                 className="btn btn-success"
                 onClick={() => {
                   this.download();
@@ -98,7 +98,7 @@ class App extends Component {
                 title="Go to the Code View to download."
               >Download 
                 <i style={{color:'white'}}
-              className={"pl-2 fa-solid fa-angles-down"}
+              className={" fa-solid fa-angles-down"}
             ></i>
               </button>
               <a

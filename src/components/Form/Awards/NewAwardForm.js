@@ -18,7 +18,7 @@ const NewAwardForm = ({ awards=[], onCreatePressed }) =>{
                 onChange={e => setAward(e.target.value)}
             />          
         <div className="text-right">
-            <button 
+            <button style={{background:'#126ccc'}}
                 className="btn btn-success btn-sm rounded-circle"
                 disabled={award === ''}
                 onClick={()=>{

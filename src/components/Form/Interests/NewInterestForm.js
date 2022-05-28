@@ -18,7 +18,7 @@ const NewInterestForm = ({ interests=[], onCreatePressed }) =>{
                 onChange={e => setInterest(e.target.value)}
             />          
         <div className="text-right">
-            <button 
+            <button style={{background:'#126ccc'}}
                 className="btn btn-success btn-sm rounded-circle"
                 disabled={interest === ''}
                 onClick={()=>{
