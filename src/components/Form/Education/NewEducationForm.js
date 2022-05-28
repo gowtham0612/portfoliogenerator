@@ -66,6 +66,7 @@ const NewEducationForm = ({ educations=[], onCreatePressed }) =>{
                 <div className="col">
                     <div className="form-check">
                         <input 
+                        box-sizing= "big-box"
                             className="form-check-input" 
                             id="presentUniversity"
                             type="checkbox" 
