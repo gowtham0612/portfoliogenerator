@@ -15,8 +15,8 @@ const NewExperienceForm = ({ experiences=[], onCreatePressed }) =>{
     const [end, setEndDate] = useState('');
     const [presentJob, setPresentJob] = useState(false);
     const [endDateEnabled, setEndDateEnabled] = useState(true);
-    return(
-    <div className="border rounded bg-light p-3 m-2">
+    return(<div className='shadow'>
+    <div className="p-3 m-2">
             <input 
                 className="form-control form-control-sm mb-2"
                 type="text"
@@ -104,6 +104,7 @@ const NewExperienceForm = ({ experiences=[], onCreatePressed }) =>{
                 <FontAwesomeIcon icon={faPlus} />
             </button>
         </div>
+    </div>
     </div>
     )
 }
