@@ -10,7 +10,7 @@ const NewSkillForm = ({ skills=[], onCreatePressed }) =>{
 
     return(
         <div className='shadow'>
-    <div className="p-3 m-2">
+    <div className="border rounded p-3 m-0">
             <input 
                 className="form-control form-control-sm mb-2"
                 type="text"

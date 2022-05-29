@@ -16,7 +16,7 @@ const NewExperienceForm = ({ experiences=[], onCreatePressed }) =>{
     const [presentJob, setPresentJob] = useState(false);
     const [endDateEnabled, setEndDateEnabled] = useState(true);
     return(<div className='shadow'>
-    <div className="p-3 m-2">
+    <div className="border rounded p-3 m-0">
             <input 
                 className="form-control form-control-sm mb-2"
                 type="text"
