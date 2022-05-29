@@ -10,42 +10,42 @@ const Form = ({ FormData, onChange }) => {
   const Desc = {
     FullName: [
       "text",
-      <h4>Full Name</h4>,
-      "This is your full name. This has been generated using your first and last names."
+      <h4 className="text-primary">Full Name</h4>,
+      
     ],
     FirstName: [
       "text",
-      <h5>First Name</h5>,
-      "enter your first name or given name."
+      <h5 className="text-primary">First Name</h5>,
+      "Enter Your First Name"
     ],
-    LastName: ["text", <h5>Last Name</h5>, "enter your last name or surname"],
+    LastName: ["text", <h5 className="text-primary">Last Name</h5>, "Enter Your Last-Name or Sur-name"],
     Thubmnail: [
       "text",
-      <h5>Your Photo</h5>,
+      <h5 className="text-primary">Your Photo</h5>,
       "upload your photo in a CDN(Ex. Imgur) and paste the direct image URL here."
     ],
     URL: [
       "text",
-      <h5>Website link</h5>,
-      "enter the URL of your website, where this page is going to be hosted"
+      <h5 className="text-primary">Website link</h5>,
+      "Enter the URL of your website"
     ],
-    Description: ["text", <h5>About you</h5>, "Write something about you."],
+    Description: ["text", <h5 className="text-primary">About you</h5>, "Write something about you."],
     Keywords: [
       "text",
-      <h5>Keywords</h5>,
+      <h5 className="text-primary">Keywords</h5>,
       "If someone wants to search for you, what keywords should they use?"
     ],
     Address: [
       "text",
-      <h5>House address</h5>,
-      "Type in your full address"
+      <h5 className="text-primary">Your Full Address</h5>,
+      "Enter your Full Address"
     ],
     Phone: [
       "text",
-      <h5>Phone Number</h5>,
-      "enter your phone number"
+      <h5 className="text-primary">Phone Number</h5>,
+      "Enter your phone number"
     ],
-    Email: ["text", <h5>Email Address</h5>, "Tell us your primary email address"],
+    Email: ["text", <h5 className="text-primary">Email Address</h5>, "Enter your Email-Address"],
     Colour: [
       "color",
       "Theme Colour",
@@ -65,22 +65,22 @@ const Form = ({ FormData, onChange }) => {
               Id={fd}
               Desc={Desc[fd][2]}
               Value={FormData[fd]}
-              Placeholder={`Enter something for ${Desc[fd][1]}`}
+              Placeholder={`Enter the details`}
               onChange={fd === "FullName" ? () => {} : onChange}
               readOnly={fd === "FullName" ? true : undefined}
               className='shadow'
             />
           )
       )}
-      <h3>Experience</h3>
+      <h3 className="text-primary">Experience</h3>
       <ExperienceList />
-      <h3>Education</h3>
+      <h3 className="text-primary">Education</h3>
       <EducationList />
-      <h3>Skills</h3>
+      <h3 className="text-primary">Skills</h3>
       <SkillsList />
-      <h3>Interests</h3>
+      <h3 className="text-primary">Interests</h3>
       <InterestList />
-      <h3>Awards</h3>
+      <h3 className="text-primary">Awards</h3>
       <AwardList />
     </div>
   );
