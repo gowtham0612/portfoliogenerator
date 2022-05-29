@@ -21,13 +21,13 @@ class App extends Component {
       Email: "",
       Colour: "#bd5e38",
       Socials: {
-        Facebook: "xyz",
-        WhatsApp: "xyz",
-        Instagram: "xyz",
-        Twitter: "xyz",
-        LinkedIn: "xyz",
-        GitHub: "xyz",
-        StackOverflow: "xyz"
+        Facebook: "",
+        WhatsApp: "",
+        Instagram: "",
+        Twitter: "",
+        LinkedIn: "",
+        GitHub: "",
+        StackOverflow: ""
       }
     },
     fileDownloadUrl: null,
