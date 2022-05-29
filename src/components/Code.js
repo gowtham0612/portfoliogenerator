@@ -96,8 +96,13 @@ const Code = ({
             ${FirstName}
             <span class="text-primary">${LastName}</span>
           </h1>
+<<<<<<< HEAD
+          <div class="subheading mb-5">
+            ${Address} <br /> ${Phone} <br />
+=======
           <div class="subheading mb-5 mt-3">
             ${Address} <br/> ${Phone} <br/>
+>>>>>>> master
             <a href="mailto:${Email}">${Email}</a>
           </div>
           <p class="lead mb-5">${Description}</p>
