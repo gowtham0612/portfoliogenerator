@@ -20,10 +20,10 @@ const Code = ({
   Colour
 }) => {
   const Meta = {
-    Facebook: ["facebook-f", "https://fb.me/"],
+    Facebook: ["facebook-square", "https://fb.me/"],
     WhatsApp: ["whatsapp", "https://wa.me/"],
     Instagram: ["instagram", "https://instagr.am/"],
-    Twitter: ["twitter", "https://twitter.com/"],
+    Twitter: ["twitter-square", "https://twitter.com/"],
     LinkedIn: ["linkedin-in", "https://linkedin.com/in/"],
     GitHub: ["github", "https://github.com"],
     StackOverflow: ["stack-overflow", "https://stackoverflow.com/u/"]

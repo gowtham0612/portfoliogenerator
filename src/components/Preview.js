@@ -20,10 +20,10 @@ const Preview = ({
   Colour
 }) => {
   const Meta = {
-    Facebook: ["facebook-f", "https://fb.me/"],
+    Facebook: ["facebook-square", "https://fb.me/"],
     WhatsApp: ["whatsapp", "https://wa.me/"],
     Instagram: ["instagram", "https://instagr.am/"],
-    Twitter: ["twitter", "https://twitter.com/"],
+    Twitter: ["twitter-square", "https://twitter.com/"],
     LinkedIn: ["linkedin-in", "https://linkedin.com/in/"],
     GitHub: ["github", "https://github.com"],
     StackOverflow: ["stack-overflow", "https://stackoverflow.com/u/"]
@@ -60,6 +60,7 @@ const Preview = ({
     <link href="https://startbootstrap.github.io/startbootstrap-resume/css/styles.css" rel="stylesheet" />
     <style>.bg-primary {--bs-bg-opacity: 1; background-color: ${Colour} !important;}
            .social-icon:hover {background-color: ${Colour} !important;}
+           .social-icon {margin-bottom: 0.5rem}
            .text-primary {--bs-text-opacity: 1; color: ${Colour} !important;}
            a {color: ${Colour};}
            a:hover {color: ${Colour};}
@@ -94,7 +95,7 @@ const Preview = ({
             <span class="text-primary">${LastName}</span>
           </h1>
           <div class="subheading mb-5">
-            ${Address} &bull; ${Phone} &bull;
+            ${Address}<br /> ${Phone} <br />
             <a href="mailto:${Email}">${Email}</a>
           </div>
           <p class="lead mb-5">${Description}</p>

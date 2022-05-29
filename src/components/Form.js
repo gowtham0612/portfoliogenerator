@@ -16,20 +16,20 @@ const Form = ({ FormData, onChange }) => {
     FirstName: [
       "text",
       <h5>First Name</h5>,
-      "Please enter your first name or given name."
+      "enter your first name or given name."
     ],
-    LastName: ["text", <h5>Last Name</h5>, "Please enter your last name or surname"],
+    LastName: ["text", <h5>Last Name</h5>, "enter your last name or surname"],
     Thubmnail: [
       "text",
       <h5>Your Photo</h5>,
-      "Please upload your photo in a CDN(Ex. Imgur) and paste the direct image URL here."
+      "upload your photo in a CDN(Ex. Imgur) and paste the direct image URL here."
     ],
     URL: [
       "text",
       <h5>Website link</h5>,
-      "Please enter the URL of your website, where this page is going to be hosted"
+      "enter the URL of your website, where this page is going to be hosted"
     ],
-    Description: ["text", <h5>About you</h5>, "Write something nice about you."],
+    Description: ["text", <h5>About you</h5>, "Write something about you."],
     Keywords: [
       "text",
       <h5>Keywords</h5>,
@@ -37,13 +37,13 @@ const Form = ({ FormData, onChange }) => {
     ],
     Address: [
       "text",
-      <h5>Where are you?</h5>,
-      "Type in your full address to get kidnapped!"
+      <h5>House address</h5>,
+      "Type in your full address"
     ],
     Phone: [
       "text",
       <h5>Phone Number</h5>,
-      "Please enter your phone number, so we can call you in the midnight!"
+      "enter your phone number"
     ],
     Email: ["text", <h5>Email Address</h5>, "Tell us your primary email address"],
     Colour: [
