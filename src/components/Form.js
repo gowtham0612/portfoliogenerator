@@ -11,12 +11,12 @@ const Form = ({ FormData, onChange }) => {
     FullName: [
       "text",
       <h4>Full Name</h4>,
-      "This is your full name. This has been generated using your first and last names."
+      
     ],
     FirstName: [
       "text",
       <h5>First Name</h5>,
-      "enter your first name or given name."
+      "Enter Your First Name"
     ],
     LastName: ["text", <h5>Last Name</h5>, "enter your last name or surname"],
     Thubmnail: [
@@ -27,7 +27,7 @@ const Form = ({ FormData, onChange }) => {
     URL: [
       "text",
       <h5>Website link</h5>,
-      "enter the URL of your website, where this page is going to be hosted"
+      "Enter the URL of your website"
     ],
     Description: ["text", <h5>About you</h5>, "Write something about you."],
     Keywords: [
@@ -37,7 +37,7 @@ const Form = ({ FormData, onChange }) => {
     ],
     Address: [
       "text",
-      <h5>House address</h5>,
+      <h5>Your Address</h5>,
       "Type in your full address"
     ],
     Phone: [
@@ -45,7 +45,7 @@ const Form = ({ FormData, onChange }) => {
       <h5>Phone Number</h5>,
       "enter your phone number"
     ],
-    Email: ["text", <h5>Email Address</h5>, "Tell us your primary email address"],
+    Email: ["text", <h5>Email Address</h5>],
     Colour: [
       "color",
       "Theme Colour",
