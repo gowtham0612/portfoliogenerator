@@ -65,7 +65,7 @@ const Form = ({ FormData, onChange }) => {
               Id={fd}
               Desc={Desc[fd][2]}
               Value={FormData[fd]}
-              Placeholder={`Enter something for ${Desc[fd][1]}`}
+              Placeholder={`Enter the details`}
               onChange={fd === "FullName" ? () => {} : onChange}
               readOnly={fd === "FullName" ? true : undefined}
               className='shadow'
